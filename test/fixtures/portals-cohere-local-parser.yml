@@ -1,0 +1,20 @@
+# Minimal portals config for local-parser integration tests (Cohere fixture).
+# Use: CAREER_OPS_PORTALS=test/fixtures/portals-cohere-local-parser.yml node scan.mjs --dry-run --company Cohere
+
+title_filter:
+  positive: []
+  negative: []
+
+tracked_companies:
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    scan_method: local_parser
+    parser:
+      command: python3
+      script: test/fixtures/parsers/cohere_jobs.py
+      args:
+        - --stdout-jobs
+        - --no-output
+      format: jobs-json-v1
+      timeout_ms: 45000
+    enabled: true

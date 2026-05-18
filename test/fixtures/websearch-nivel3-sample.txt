@@ -1,0 +1,13 @@
+# Sample WebSearch result blob (nivel 3) for token benchmark — not live search.
+# Represents ~10 SERP lines an agent might read for: site:jobs.ashbyhq.com/cohere "AI Engineer"
+
+Senior AI Engineer @ Cohere | https://jobs.ashbyhq.com/cohere/abc123
+Member of Technical Staff, MLE @ Cohere | https://jobs.ashbyhq.com/cohere/def456
+Applied AI Engineer – Agentic Workflows @ Cohere | https://jobs.ashbyhq.com/cohere/ghi789
+Forward Deployed Engineer, Agentic Platform @ Cohere | London
+Software Engineer, Security Agents @ Cohere | Toronto
+Staff Software Engineer, Inference Infrastructure @ Cohere | San Francisco
+Engineering Manager, Agentic Platform @ Cohere | Europe
+Member of Technical Staff, Agents Modeling @ Cohere | New York
+Senior Software Engineer, Agent Infrastructure @ Cohere | Toronto
+Applied AI Engineer - Agentic Workflows (Singapore) @ Cohere | Singapore
